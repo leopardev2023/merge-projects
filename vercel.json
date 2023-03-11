@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    {"source": "/", "destination": "https://crocosstaking.vercel.app/"},
+    {"source": "/app/:match*", "destination": "https://zeustaking.vercel.app/"}
+   ]
+}
