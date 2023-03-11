@@ -1,8 +1,14 @@
 {
   "rewrites": [
-    {"source": "/", "destination": "https://crocosstaking.vercel.app/"},
-    {"source": "/:match*", "destination": "ttps://crocosstaking.vercel.app/:match*"},
-    {"source": "/app/", "destination": "https://zeustaking.vercel.app/"},
-    {"source": "/app/:match*", "destination": "https://zeustaking.vercel.app/:match*"}
-   ]
+    { "source": "/app/", "destination": "https://zeustaking.vercel.app/" },
+    {
+      "source": "/app/:match*",
+      "destination": "https://zeustaking.vercel.app/:match*"
+    },
+    { "source": "/", "destination": "https://crocosstaking.vercel.app/" },
+    {
+      "source": "/:match*",
+      "destination": "ttps://crocosstaking.vercel.app/:match*"
+    }
+  ]
 }
