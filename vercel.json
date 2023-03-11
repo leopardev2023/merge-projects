@@ -1,9 +1,9 @@
 {
   "rewrites": [
-    { "source": "/admin/", "destination": "https://crocosstaking.vercel.app/" },
+    { "source": "/app/", "destination": "https://crocosnft-staking.vercel.app/" },
     {
-      "source": "/admin/:match*",
-      "destination": "https://crocosstaking.vercel.app/:match*"
+      "source": "/app/:match*",
+      "destination": "https://crocosnft-staking.vercel.app/:match*"
     },
     { "source": "/", "destination": "https://zeustaking.vercel.app/" },
     {
