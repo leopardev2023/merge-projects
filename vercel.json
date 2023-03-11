@@ -1,6 +1,10 @@
 {
   "rewrites": [
-    { "source": "/app/", "destination": "https://crocosstaking.vercel.app/" },
+    { "source": "/admin/", "destination": "https://crocosstaking.vercel.app/" },
+    {
+      "source": "/admin/:match*",
+      "destination": "https://crocosstaking.vercel.app/:match*"
+    },
     { "source": "/", "destination": "https://zeustaking.vercel.app/" },
     {
       "source": "/:match*",
