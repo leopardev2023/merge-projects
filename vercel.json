@@ -1,6 +1,6 @@
 {
   "rewrites": [
-    { "source": "/app/", "destination": "https://zeustaking.vercel.app/" },
+    { "source": "/app/", "destination": "https://zeustaking.vercel.app" },
     {
       "source": "/app/:match*",
       "destination": "https://zeustaking.vercel.app/:match*"
