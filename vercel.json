@@ -1,14 +1,14 @@
 {
   "rewrites": [
-    { "source": "/app/", "destination": "https://zeustaking.vercel.app/" },
-    {
-      "source": "/app/:match*",
-      "destination": "https://zeustaking.vercel.app/:match*"
-    },
     { "source": "/", "destination": "https://crocosstaking.vercel.app/" },
     {
       "source": "/:match*",
       "destination": "https://crocosstaking.vercel.app/:match*"
+    },
+    { "source": "/app/", "destination": "https://zeustaking.vercel.app/" },
+    {
+      "source": "/app/:match*",
+      "destination": "https://zeustaking.vercel.app/:match*"
     }
   ]
 }
