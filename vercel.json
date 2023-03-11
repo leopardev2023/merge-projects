@@ -1,9 +1,9 @@
 {
   "rewrites": [
-    { "source": "/app/", "destination": "https://dragon-nft.vercel.app/app/" },
+    { "source": "/app/", "destination": "https://dragon-nft.vercel.app/" },
     {
       "source": "/app/:match*",
-      "destination": "https://dragon-nft.vercel.app/app/:match*"
+      "destination": "https://dragon-nft.vercel.app/:match*"
     },
     { "source": "/", "destination": "https://crocosstaking.vercel.app/" },
     {
