@@ -8,7 +8,7 @@
     { "source": "/", "destination": "https://crocosstaking.vercel.app/" },
     {
       "source": "/:match*",
-      "destination": "ttps://crocosstaking.vercel.app/:match*"
+      "destination": "https://crocosstaking.vercel.app/:match*"
     }
   ]
 }
