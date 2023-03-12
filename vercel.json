@@ -1,14 +1,14 @@
 {
   "rewrites": [
-    { "source": "/app/", "destination": "https://crocosnft-staking.vercel.app/" },
+    { "source": "/app/", "destination": "https://outdefine-frontend.vercel.app/" },
     {
       "source": "/app/:match*",
-      "destination": "https://crocosnft-staking.vercel.app/:match*"
+      "destination": "https://outdefine-frontend.vercel.app/:match*"
     },
-    { "source": "/", "destination": "https://zeustaking.vercel.app/" },
+    { "source": "/", "destination": "https://www.outdefine.com/" },
     {
       "source": "/:match*",
-      "destination": "https://zeustaking.vercel.app/:match*"
+      "destination": "https://www.outdefine.com/:match*"
     }
   ]
 }
